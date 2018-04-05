@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="photographerLog_ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.yudina.myfirstapp.controllers.PhotographerLoginController">
+   <children>
+      <Button focusTraversable="false" layoutX="386.0" layoutY="3.0" mnemonicParsing="false" onAction="#registration" prefHeight="31.0" prefWidth="146.0" text="Регистрация" wrapText="true" />
+      <Button focusTraversable="false" layoutX="534.0" layoutY="3.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="77.0" text="Войти" />
+      <Button focusTraversable="false" layoutX="258.0" layoutY="3.0" mnemonicParsing="false" onAction="#studio" prefHeight="31.0" prefWidth="126.0" text="Студии" />
+      <Button focusTraversable="false" layoutX="130.0" layoutY="3.0" mnemonicParsing="false" onAction="#photos" prefHeight="31.0" prefWidth="126.0" text="Архив фото" />
+      <Button focusTraversable="false" layoutX="2.0" layoutY="3.0" mnemonicParsing="false" onAction="#photographer" prefHeight="31.0" prefWidth="126.0" text="Фотографы" />
+      <Label layoutX="23.0" layoutY="44.0" text="Фотографы">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="78.0" prefHeight="25.0" prefWidth="146.0" text="• В**** Т.И.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../p.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="266.0" layoutY="110.0" prefHeight="31.0" prefWidth="296.0" style="-fx-padding-top: 0;" text="Информация: *****" textAlignment="JUSTIFY" AnchorPane.topAnchor="110.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>
